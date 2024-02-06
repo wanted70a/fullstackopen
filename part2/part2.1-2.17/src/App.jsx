@@ -1,12 +1,12 @@
 import "./index.css";
 import { useState } from "react";
 import AddPersonForm from "./components/AddPersonForm";
-import PhonebookList from "./components/phoneBookList/PhonebookList";
 import Filterby from "./components/FilterbyList";
 import { useEffect } from "react";
 import api from "./services/persons";
 import Notification from "./components/Notification";
 import Footer from "./components/Footer";
+import PhonebookList from "./components/PhoneBookList/PhonebookList";
 
 const App = () => {
   const [persons, setPersons] = useState([]);
